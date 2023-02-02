@@ -1,19 +1,17 @@
 {
   "name": "sf-delta",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "CLI tool for building Salesforce.com package.xml files from git diffs",
   "main": "index.js",
   "bin": {
-    "sfdelta": "./index.js"
+    "sfdelta": "index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "jshint ./",
-    "prepublishOnly": "npm run lint"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:jayabalanj1983/sf-delta.git"
+    "url": "git+ssh://git@github.com/jayabalanj1983/sf-delta.git"
   },
   "keywords": [
     "salesforce",
@@ -33,5 +31,12 @@
   },
   "devDependencies": {
     "jshint": "^2.10.2"
+  },
+  "bugs": {
+    "url": "https://github.com/jayabalanj1983/sf-delta/issues"
+  },
+  "homepage": "https://github.com/jayabalanj1983/sf-delta#readme",
+  "directories": {
+    "lib": "lib"
   }
 }
